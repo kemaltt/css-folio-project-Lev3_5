@@ -70,14 +70,14 @@ header div h2 {
 }
 
 header div img {
-    margin: 2rem 0 1rem 0;
+    margin: 2rem 0 0.5rem 0;
 }
 
 header div h3 {
-    margin-right: auto;
     font-family: Athene;
     font-weight: 400;
     color: #042A5A;
+    margin: 0 8vw 0 0;
 }
 
 header div span {
@@ -105,6 +105,7 @@ main section:first-child p:first-child {
 main section:first-child h2 {
     font-size: 8rem;
     font-family: Athene;
+    font-weight: 400;
 }
 
 main section:first-child p:nth-of-type(2) {
@@ -139,6 +140,7 @@ aside h4 {
 
 aside p {
     margin: 1rem 0 1rem 10vw;
+    text-align: left;
 }
 
 aside div:nth-of-type(3) {
