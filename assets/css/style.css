@@ -1,0 +1,280 @@
+@font-face {
+    font-family: OpenSans;
+    src: url("../font/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: Athene;
+    src: url("../font/Athene.otf");
+}
+
+
+/* 
+Farben: #042A5A, #F4C4C4, #282B29, #7D2222, #DEB873, #D2D2D2, #388883
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ===============================
+               Header
+=================================== */
+
+header {
+    background-color: #EFE8D7;
+    padding: 0 0 2rem;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    margin: 0;
+    height: 6vh;
+    width: 100%;
+    border-bottom: 2px solid #042A5A;
+    padding: 0 7rem 0 7rem;
+}
+
+nav p {
+    font-family: OpenSans;
+    display: inline-block;
+    color: #042A5A;
+    line-height: 6vh;
+    width: 49%;
+}
+
+nav p:nth-of-type(2) {
+    text-align: right;
+}
+
+header {
+    padding-top: 4rem;
+}
+
+header div {
+    text-align: center;
+    margin: 0 0 4rem 0;
+}
+
+header div h2 {
+    font-family: Athene;
+    color: #042A5A;
+    font-size: 8rem;
+    font-weight: 400;
+    border-bottom: 2px solid #042A5A;
+    margin: 0 18rem 0 18rem;
+}
+
+header div img {
+    margin: 2rem 0 1rem 0;
+}
+
+header div h3 {
+    margin-right: auto;
+    font-family: Athene;
+    font-weight: 400;
+    color: #042A5A;
+}
+
+header div span {
+    font-family: OpenSans;
+}
+
+
+/* Main========================== */
+
+
+/* Section 1============= */
+
+main section:first-child {
+    background-color: #F4C4C4;
+    padding: 3rem 4rem 3rem 0;
+    color: #282B29;
+    font-weight: 400;
+}
+
+main section:first-child p:first-child {
+    font-family: OpenSans;
+    margin: 0 0 3rem 3rem;
+}
+
+main section:first-child h2 {
+    font-size: 8rem;
+    font-family: Athene;
+}
+
+main section:first-child p:nth-of-type(2) {
+    font-family: OpenSans;
+    font-size: 1rem;
+    margin: 1rem 0 2rem 60vw;
+}
+
+main section:first-child aside {
+    margin: 1rem 0 2rem 55vw;
+}
+
+main section:first-child aside h3 {
+    text-align: right;
+    font-family: OpenSans;
+}
+
+aside div {
+    display: flex;
+    border-top: 1px solid #282B29;
+}
+
+aside span {
+    margin: 2rem 3rem 2rem 0;
+}
+
+aside h4 {
+    font-size: 1.2rem;
+    margin: 2rem 5rem 2rem 0;
+    font-family: OpenSans;
+}
+
+aside p {
+    margin: 1rem 0 1rem 10vw;
+}
+
+aside div:nth-of-type(3) {
+    border-bottom: 1px solid #282B29;
+}
+
+main section:first-child img {
+    width: 100px;
+    margin: 0 0 0 87vw;
+}
+
+
+/* =================================
+           Section 2
+================================== */
+
+main section:nth-child(2) {
+    background-color: #DEB873;
+    padding: 3rem 0 3rem 4rem;
+    color: #7D2222;
+    font-weight: 400;
+}
+
+main section:nth-child(2) h2 {
+    text-align: right;
+    font-size: 8rem;
+    font-family: Athene;
+}
+
+main section:nth-child(2) p:first-child {
+    font-family: OpenSans;
+    text-align: right;
+    margin: 0 3rem 3rem 0;
+}
+
+main section:nth-child(2) p:nth-of-type(2) {
+    font-family: OpenSans;
+    font-size: 1rem;
+    margin: 1rem 60vw 5rem 0;
+}
+
+main section:nth-child(2) article {
+    margin: 7rem 4rem 7rem 0;
+}
+
+main section:nth-child(2) article:nth-of-type(1) {
+    background-image: url("../img/bg-marconatto-1.jpg");
+    background-size: 50vw;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+main section:nth-child(2) article:nth-of-type(2) {
+    background-image: url("../img/kathe_cover-1.jpg");
+    background-size: 50vw;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+main section:nth-child(2) article:nth-of-type(3) {
+    background-image: url("../img/bg-nicole-1.jpg");
+    background-size: 50vw;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+main section:nth-child(2) article:nth-of-type(4) {
+    background-image: url("../img/boa_cover-1.jpg");
+    background-size: 50vw;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+main section:nth-child(2) article:nth-of-type(odd) h3 {
+    font-family: Athene;
+    font-size: 4rem;
+    font-weight: 400;
+    margin: 0 50vw 0 0;
+    padding-top: 2rem;
+}
+
+main section:nth-child(2) article:nth-of-type(even) h3 {
+    font-family: Athene;
+    font-size: 4rem;
+    font-weight: 400;
+    margin: 0 0 0 55vw;
+    padding-top: 2rem;
+}
+
+
+/* Footer=============== */
+
+footer {
+    background-color: #D2D2D2;
+    padding: 3rem 4rem 3rem 0;
+    color: #388883;
+    font-weight: 400;
+}
+
+footer p:first-child {
+    font-family: OpenSans;
+    margin: 0 0 3rem 3rem;
+}
+
+footer h2 {
+    font-size: 8rem;
+    font-family: Athene;
+    font-weight: 400;
+}
+
+footer p {
+    margin: 2rem 37vw 2rem 37vw;
+    font-family: OpenSans;
+    line-height: 2.5;
+}
+
+footer ul {
+    text-align: right;
+    list-style: none;
+}
+
+footer ul li {
+    margin-top: 0.8rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #388883;
+    font-size: 1.3rem;
+    font-family: OpenSans;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
