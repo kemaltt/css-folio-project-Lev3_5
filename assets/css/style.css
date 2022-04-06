@@ -51,10 +51,6 @@ nav p:nth-of-type(2) {
     text-align: right;
 }
 
-header {
-    padding-top: 4rem;
-}
-
 header h2 {
     text-align: center;
     font-family: Athene;
@@ -62,7 +58,13 @@ header h2 {
     font-size: 8rem;
     font-weight: 400;
     border-bottom: 2px solid #042A5A;
-    margin: 0 18rem 0 18rem;
+    /* margin: 0 18rem 0 18rem; */
+    width: 55vw;
+    margin: 0 auto;
+}
+
+header h2:nth-of-type(1) {
+    padding-top: 4rem;
 }
 
 header div {
@@ -78,11 +80,11 @@ header div h3 {
     font-family: Athene;
     font-weight: 400;
     color: #042A5A;
-    margin: 0 8vw 0 0;
 }
 
 header div span {
     font-family: OpenSans;
+    font-weight: 400;
 }
 
 
