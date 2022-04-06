@@ -31,8 +31,8 @@ header {
 
 nav {
     position: fixed;
-    top: 0;
-    margin: 0;
+    left: 0;
+    right: 0;
     height: 6vh;
     width: 100%;
     border-bottom: 2px solid #042A5A;
@@ -55,12 +55,8 @@ header {
     padding-top: 4rem;
 }
 
-header div {
+header h2 {
     text-align: center;
-    margin: 0 0 4rem 0;
-}
-
-header div h2 {
     font-family: Athene;
     color: #042A5A;
     font-size: 8rem;
@@ -69,8 +65,13 @@ header div h2 {
     margin: 0 18rem 0 18rem;
 }
 
+header div {
+    width: 30%;
+    margin: 10vw auto;
+}
+
 header div img {
-    margin: 2rem 0 0.5rem 0;
+    width: 100%;
 }
 
 header div h3 {
